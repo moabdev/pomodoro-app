@@ -104,7 +104,7 @@ Você pode alterar os tempos de **trabalho** e **descanso** diretamente no compo
 ## 🖼️ Demonstração
 Aqui está uma prévia do aplicativo:
 
-![Pomodoro Timer Preview](pomodoro-timer-preview.png)
+![Pomodoro Timer Preview](https://pomodoro-app-seven-pi.vercel.app)
 
 ## 🛠️ Contribuindo
 Sinta-se à vontade para contribuir com este projeto! Crie uma issue ou um pull request para melhorias e novas funcionalidades.
