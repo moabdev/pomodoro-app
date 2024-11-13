@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import bellStart from '../sounds/bell-start.mp3';
-import bellFinish from '../sounds/bell-finish.mp3';
+import { useState } from "react";
+import bellStart from "../sounds/bell-start.mp3";
+import bellFinish from "../sounds/bell-finish.mp3";
 
 export const useAudio = () => {
   const [muted, setMuted] = useState(false);
@@ -9,13 +9,17 @@ export const useAudio = () => {
 
   const playStart = () => {
     if (!muted) {
-      audioStart.play().catch(err => console.log('Audio playback failed:', err));
+      audioStart
+        .play()
+        .catch((err) => console.log("Audio playback failed:", err));
     }
   };
 
   const playFinish = () => {
     if (!muted) {
-      audioFinish.play().catch(err => console.log('Audio playback failed:', err));
+      audioFinish
+        .play()
+        .catch((err) => console.log("Audio playback failed:", err));
     }
   };
 
